@@ -10,9 +10,9 @@ st.set_page_config(
 )
 
 # Load data
-course = pd.read_csv("/EduPro Online Platform.xlsx - Courses.csv")
-user = pd.read_csv("/EduPro Online Platform.xlsx - Users.csv")
-transaction = pd.read_csv("/EduPro Online Platform.xlsx - Transactions.csv")
+course = pd.read_csv("EduPro Online Platform.xlsx - Courses.csv")
+user = pd.read_csv("EduPro Online Platform.xlsx - Users.csv")
+transaction = pd.read_csv("EduPro Online Platform.xlsx - Transactions.csv")
 
 # Remove accidental spaces from column names
 course.columns = course.columns.str.strip()
