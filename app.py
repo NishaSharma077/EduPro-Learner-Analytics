@@ -83,3 +83,4 @@ st.subheader("Courses by Course Level")
 st.bar_chart(
     df["CourseLevel"].value_counts()
 )
+!streamlit run app.py --server.address 0.0.0.0 --server.port 8501 > streamlit.log 2>&1 &
